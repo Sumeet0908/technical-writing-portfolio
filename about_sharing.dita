@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="about_sharing">
+    <title>About sharing in <keyword keyref="product_name"/>.</title>
+    <shortdesc>Share your files and folders with others.</shortdesc>
+    <conbody>
+        <p>You can control who can open the files and folders you share.</p>
+        <ul>
+            <li>Share the file or folder with specific people.</li>
+            <li>Choose what each person can do with it.</li>
+            <li>Change or remove a person's access at any time.</li>
+        </ul>
+        <note type="tip">Share only with the people who need access.</note>
+    </conbody>
+</concept>

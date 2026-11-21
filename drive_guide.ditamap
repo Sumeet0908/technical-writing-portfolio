@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <title>Google Drive Guide</title>
+    <keydef keys="product_name">
+        <topicmeta>
+            <keywords>
+                <keyword>Google Drive</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="gemini">
+        <topicmeta>
+            <keywords>
+                <keyword>Gemini</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <topicref href="about_sharing.dita">
+        <topicref href="access_levels.dita"/>
+        <topicref href="share_file.dita"/>
+        <topicref href="sharing_settings.dita"/>
+        <topicref href="upload_file.dita"/>
+    </topicref>
+</map>

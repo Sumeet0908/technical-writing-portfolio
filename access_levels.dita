@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reference id="access_levels">
+    <title>Access levels</title>
+    <shortdesc>Compare what each access level and general access option allows.</shortdesc>
+    <refbody>
+        <section>
+            <title>Access levels for people</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Level</stentry>
+                    <stentry>Permission</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Viewer</stentry>
+                    <stentry>Can open and view the file.</stentry>
+                </strow>
+                <strow>
+                    <stentry>Commenter</stentry>
+                    <stentry>Can open, view, and add comments to the file.</stentry>
+                </strow>
+                <strow>
+                    <stentry>Editor</stentry>
+                    <stentry>Can open, view, comment on, and edit the file.</stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section>
+            <title>General access</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Option</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Restricted</stentry>
+                    <stentry>Only the people you add can open the file.</stentry>
+                </strow>
+                <strow>
+                    <stentry>Anyone with the link</stentry>
+                    <stentry>Anyone who has the link can open the file.</stentry>
+                </strow>
+            </simpletable>
+        </section>
+    </refbody>
+</reference>

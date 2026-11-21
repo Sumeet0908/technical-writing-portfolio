@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="upload_file">
+    <title>Upload a file</title>
+    <shortdesc>Upload a file from your computer to <keyword keyref="product_name"/>.</shortdesc>
+    <taskbody>
+        <prereq>You must be signed in to your Google Account.</prereq>
+        <steps>
+            <step platform="web">
+                <cmd>Click <b>New</b>.</cmd>
+            </step>
+            <step platform="web">
+                <cmd>Select <b>File upload</b>.</cmd>
+                <info>A file selection window opens.</info>
+            </step>
+            <step platform="web">
+                <cmd>Select the file, and then click <b>Open</b>.</cmd>
+            </step>
+            <step platform="mobile">
+                <cmd>Open <b>Google Drive</b> on your mobile.</cmd>
+            </step>
+            <step platform="mobile">
+                <cmd>Tap the <b>+</b> icon, and then tap <b>Upload</b>.</cmd>
+                <info>A file selection screen opens.</info>
+            </step>
+        </steps>
+        <result>The file appears in My Drive.</result>
+    </taskbody>
+</task>

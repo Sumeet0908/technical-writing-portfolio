@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="sharing_settings">
+    <title>Change sharing settings</title>
+    <shortdesc>Control what editors, commenters, and viewers can do with the shared file.</shortdesc>
+    <taskbody>
+        <prereq>You must be the owner of the file.</prereq>
+        <steps>
+            <step>
+                <cmd>In <keyword keyref="product_name"/>, right click the file and select <b>Share</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <b>Settings</b> icon.</cmd>
+                <info>Setting page for the file opens.</info>
+            </step>
+            <step>
+                <cmd>Check or uncheck the options that you want to change.</cmd>
+                <choices>
+                    <choice><b>Allow editors to change permissions and share</b>: Lets editors change access and share the file with others.</choice>
+                    <choice><b>Editors</b>: Lets editors download, copy, print, and access the file through <keyword keyref="gemini"/>.</choice>
+                    <choice><b>Commenters and viewers</b>: Lets commenters and viewers download, copy, print, and access the file through <keyword keyref="gemini"/>.</choice>
+                </choices>
+            </step>
+        </steps>
+        <result>The new settings are applied to the file.</result>
+    </taskbody>
+</task>

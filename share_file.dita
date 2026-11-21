@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="upload_file">
+    <title>Share a file</title>
+    <shortdesc>Share a file in <keyword keyref="product_name"/> with another person.</shortdesc>
+    <taskbody>
+        <prereq>You must own the file or have permission to share it.</prereq>
+        <context>
+            <note conref="common_notes.dita#common_notes/backup_warning"/>
+            <note audience="owner">To stop editors from sharing the file, uncheck the <b>Allow editors to change permissions and share</b> option. For details, see <xref href="sharing_settings.dita">Change sharing settings</xref>.</note>
+            <note audience="editor">You can share the file only if the owner allows editors to change permissions and share.</note>
+            <note type="tip">Alternatively, click <b>Copy link</b>, and then send the to the person.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>In <keyword keyref="product_name"/>, right-click the file, and then select <b>Share</b>.</cmd>
+            </step>
+            <step>
+                <cmd>In the sharing box, enter the name or email address of the person.</cmd>
+            </step>
+            <step>
+                <cmd>Select the access level for the person.</cmd>
+                <info>For available options, <xref href="access_levels.dita">Access levels</xref>.</info>
+            </step>
+            <step>
+                <cmd>Click <b>Send</b>.</cmd>
+            </step>
+        </steps>
+        <result>The person receive an email with a link to the file.</result> 
+    </taskbody>
+</task>
