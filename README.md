@@ -42,7 +42,7 @@ Google Drive.
 - Markdown version of the guide
 - Flare version of the guide
 
-## About
+## Background
 
 Written as part of my transition into technical writing, alongside my
 API documentation work.
