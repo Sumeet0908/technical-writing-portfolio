@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="upload_file">
     <title>Upload a file</title>
     <shortdesc>Upload a file from your computer to <keyword keyref="product_name"/>.</shortdesc>

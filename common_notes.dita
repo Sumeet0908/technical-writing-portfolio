@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="common_notes">
     <title>Common notes</title>
     <shortdesc>Notes that are reuse in many topics.</shortdesc>
     <conbody>
-        <note id="backup_warning" type="warning">Backup your file before you continue.</note>
+        <note id="backup_warning" type="warning">Back up your files before you continue.</note>
     </conbody>
 </concept>
