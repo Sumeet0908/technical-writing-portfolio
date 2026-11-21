@@ -4,6 +4,13 @@ Unofficial sample documentation for Google Drive sharing, written in
 DITA for learning and portfolio purposes. The steps were checked in
 Google Drive.
 
+## Live output
+
+The same DITA source produces two HTML5 outputs, built with DITA-OT:
+
+- [Owner guide](https://sumeet0908.github.io/technical-writing-portfolio/owner/index.html)
+- [Editor guide](https://sumeet0908.github.io/technical-writing-portfolio/editor/index.html)
+
 ## What's inside
 
 | File | Type | Shows |
@@ -36,6 +43,7 @@ Google Drive.
 | Date | Work |
 |---|---|
 | 21 Nov 2026 | Wrote the guide: 5 topics, map, filters, README |
+| 21 Nov 2026 | Built owner and editor HTML5 outputs with DITA-OT and published them with GitHub Pages |
 
 ## Planned
 
