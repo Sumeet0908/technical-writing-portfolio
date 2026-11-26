@@ -1,56 +1,75 @@
 # Google Drive Sample Documentation (DITA)
 
-Unofficial sample documentation for Google Drive sharing, written in
-DITA for learning and portfolio purposes. The steps were checked in
-Google Drive.
+Unofficial sample documentation for Google Drive sharing, created using DITA for learning and technical writing portfolio purposes. The instructions were checked in Google Drive.
 
-## Live output
+## Live Documentation
 
-The same DITA source produces two HTML5 outputs, built with DITA-OT:
+The same DITA source produces audience-specific HTML5 outputs using DITA Open Toolkit (DITA-OT).
 
-- [Owner guide](https://sumeet0908.github.io/technical-writing-portfolio/owner/index.html)
-- [Editor guide](https://sumeet0908.github.io/technical-writing-portfolio/editor/index.html)
+- [Owner Guide](https://sumeet0908.github.io/technical-writing-portfolio/owner/)
+- [Editor Guide](https://sumeet0908.github.io/technical-writing-portfolio/editor/)
 
-## What's inside
+## Publishing Outputs
+
+The DITA source has been published into multiple output formats.
+
+| Output Format | Description | Location |
+|---|---|---|
+| HTML5 | Browser-based Owner and Editor guides | [Owner](docs/owner/) / [Editor](docs/editor/) |
+| PDF | Downloadable documentation | [View PDF](docs/pdf/drive_guide.pdf) |
+| Markdown | Standard Markdown output | [View files](docs/markdown/) |
+| GitHub Markdown | GitHub-compatible Markdown output | [View files](docs/markdown_github/) |
+
+## What's Inside
 
 | File | Type | Shows |
 |---|---|---|
-| about_sharing.dita | Concept | Concept structure, list, tip |
-| upload_file.dita | Task | Steps, prerequisite, result, platform attribute |
-| share_file.dita | Task | conref, keyref, audience, xref |
+| about_sharing.dita | Concept | Concept structure, lists, and tips |
+| upload_file.dita | Task | Steps, prerequisites, results, and platform attributes |
+| share_file.dita | Task | conref, keyref, audience, and xref |
 | sharing_settings.dita | Task | Choices inside a step |
-| access_levels.dita | Reference | Tables in sections |
-| common_notes.dita | Concept | Source for reused content |
-| drive_guide.ditamap | Map | Topic hierarchy, key definitions |
-| owner.ditaval, editor.ditaval | Filters | One source, two audiences |
+| access_levels.dita | Reference | Tables and reference information |
+| common_notes.dita | Concept | Reusable content |
+| drive_guide.ditamap | Map | Topic hierarchy and key definitions |
+| owner.ditaval, editor.ditaval | Filters | Audience-specific publishing |
 
-## Single sourcing
+## DITA Features Demonstrated
 
-- **conref:** the backup warning is written once in `common_notes.dita`
-  and reused in `share_file.dita`.
-- **keyref:** product names are defined once in the map and resolve at
-  build time, so they look empty in the source files.
-- **audience:** owner-only and editor-only notes are filtered by
-  `owner.ditaval` and `editor.ditaval`.
-- **platform:** web and mobile steps in `upload_file.dita`.
+- **DITA topic types:** Concept, Task, and Reference.
+- **DITA Map:** Organizes topics into a structured documentation hierarchy.
+- **conref:** Reuses the backup warning from `common_notes.dita`.
+- **keyref:** Defines product names in the map and resolves them during publishing.
+- **Conditional publishing:** Uses audience filters to generate Owner and Editor-specific content.
+- **xref:** Creates links between related topics.
+- **Multi-format publishing:** Generates HTML5, PDF, Markdown, and GitHub Markdown from the same DITA source.
 
-## Other work
+## Tools Used
 
-- [API documentation portfolio](https://github.com/Sumeet0908/API-Documents_portfolio)
+- DITA Open Toolkit (DITA-OT) 4.4.2
+- Java JDK
+- Visual Studio Code
+- Git and GitHub
+- GitHub Pages
 
-## Work log
+## Related Work
 
-| Date | Work |
+- [API Documentation Portfolio](https://github.com/Sumeet0908/API-Documents_portfolio)
+
+## Work Log
+
+| Date | Work Completed |
 |---|---|
-| 21 Nov 2026 | Wrote the guide: 5 topics, map, filters, README |
-| 21 Nov 2026 | Built owner and editor HTML5 outputs with DITA-OT and published them with GitHub Pages |
+| 21 Nov 2026 | Created DITA topics, map, audience filters, and initial README |
+| 21 Nov 2026 | Generated Owner and Editor HTML5 outputs and published them using GitHub Pages |
+| 26 Nov 2026 | Generated PDF, Markdown, and GitHub Markdown outputs |
+| 26 Nov 2026 | Verified Markdown formatting and internal topic links |
 
 ## Planned
 
-- Markdown version of the guide
-- Flare version of the guide
+- MadCap Flare version of the guide
 
 ## Background
 
-Written as part of my transition into technical writing, alongside my
-API documentation work.
+Created as part of my technical writing learning and portfolio development, alongside my API documentation practice.
+
+This is an independent sample project and is not official Google documentation.
